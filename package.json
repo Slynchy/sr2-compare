@@ -1,0 +1,44 @@
+{
+  "name": "sr2-compare",
+  "version": "1.0.0",
+  "description": "Compares files in folders against eachother (for Saints Row 2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "plugins": [],
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "script"
+    },
+    "rules": {
+      "no-console": "off",
+      "no-undef": 0,
+      "no-unused-vars": "warn",
+      "indent": [
+        "error",
+        "tab"
+      ],
+      "max-len": [
+        1,
+        120,
+        2,
+        {
+          "ignoreComments": true
+        }
+      ],
+      "prop-types": [
+        0
+      ]
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  },
+  "author": "Sam Lynch",
+  "license": "MIT",
+  "dependencies": {
+    "diff": "^3.5.0"
+  }
+}
